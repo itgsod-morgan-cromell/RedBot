@@ -26,7 +26,11 @@ class PostBot(object):
         posts = self.get_unresponded_posts()
         if posts:
             for post in posts:
-                print "wop"
+                return self.greet_post(post)
+
+
+    def greet_post(self, post):
+        self.redbot.send_request(PostGreetMsg(post['data']['name']))
 
     def get_unresponded_posts(self):
         self.posts = self.get_posts()

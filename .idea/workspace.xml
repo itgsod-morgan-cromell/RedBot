@@ -5,15 +5,16 @@
     <ignored path="RedBot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396432925811" ignored="false" />
-    <file path="/Python Console" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397033800439" ignored="false" />
+    <file path="/Python Console" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034440015" ignored="false" />
     <file path="/client.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396436889891" ignored="false" />
     <file path="/request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396441544380" ignored="false" />
     <file path="/RedBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396861894235" ignored="false" />
     <file path="/login_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396441513632" ignored="false" />
     <file path="/__init__.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396857880985" ignored="false" />
     <file path="/get_subreddit_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396855236385" ignored="false" />
-    <file path="/main.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397033828439" ignored="false" />
+    <file path="/main.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034453460" ignored="false" />
     <file path="/get_post_comments_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396862088651" ignored="false" />
+    <file path="/post_greet_msg.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034494787" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,19 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="33" selection-start="1115" selection-end="1115" vertical-scroll-proportion="1.4322344">
+            <state line="32" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="1.0074074">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_greet_msg.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/request_types/post_greet_msg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +145,7 @@
         <option value="$PROJECT_DIR$/request_types/get_post_comments_request.py" />
         <option value="$PROJECT_DIR$/request_types/request.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/request_types/post_greet_msg.py" />
       </list>
     </option>
   </component>
@@ -393,11 +404,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49063033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49063033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -519,9 +530,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/post_greet_msg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="33" selection-start="1115" selection-end="1115" vertical-scroll-proportion="1.4322344">
+        <state line="32" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="1.0074074">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
