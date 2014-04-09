@@ -7,9 +7,9 @@ class Request(object):
 
     def run(self, client):
         if self.type == 'GET':
-            r = client.get(r'http://www.reddit.com/{0}'.format(self.url), params=self.parameters)
+            r = client.get(r'{0}'.format(self.url), params=self.parameters)
         elif self.type == 'POST':
-            r = client.post(r'http://www.reddit.com/{0}'.format(self.url), params=self.parameters)
+            r = client.post(r'{0}'.format(self.url), params=self.parameters)
         if r:
             return r
 

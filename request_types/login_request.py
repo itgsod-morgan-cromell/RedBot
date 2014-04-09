@@ -4,7 +4,7 @@ import json
 
 class LoginRequest(Request):
     def __init__(self, username, password):
-        Request.__init__(self, 'POST', '/api/login', api_type='json', user=username, passwd=password)
+        Request.__init__(self, 'POST', 'http://www.reddit.com/api/login', api_type='json', user=username, passwd=password)
 
     def process_request(self, client):
         r = self.run(client)
