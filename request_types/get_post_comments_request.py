@@ -11,9 +11,12 @@ class GetPostComments(Request):
 
     def process_request(self, client):
         r = self.run(client)
-        if r.status_code == 200:
-            j = json.loads(r.content)
-            self.json = j
-            for comment in j[1]['data']['children']:
-                self.comments.append(comment)
+        if r and r.status_code == 200:
+            try:
+                j = json.loads(r.content)
+                self.json = j
+                for comment in j[1]['data']['children']:
+                    self.comments.append(comment)
+            except ValueError:
+                print "nope"
 

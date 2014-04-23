@@ -3,7 +3,7 @@ import time
 class RedBot(object):
     def __init__(self, throttler):
         self.client = requests.session()
-        self.client.headers = {'user-agent': 'u/RedBotITG\'s testbot v 0.000000001'}
+        self.client.headers = {'user-agent': 'u/RedBotITG\'s testbot, will post in all unposted posts. v 0.000000001'}
         self.throttler = throttler
         self.request_queue = []
         self.completed_requests = []
@@ -22,7 +22,7 @@ class RedBot(object):
         while True:
             if self.throttler.is_request_allowed:
                 self.throttler.request_sent()
-                print "request {0} sent".format(request.request_type)
+                print "request {0} sent \n".format(request.request_type)
                 self.completed_requests.insert(0, request)
                 if request in self.request_queue:
                     self.request_queue.remove(request)

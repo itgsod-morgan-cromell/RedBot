@@ -4,17 +4,18 @@
     <list default="true" id="2e7348b5-7528-45f7-adb0-5e5d797d5a85" name="Default" comment="" />
     <ignored path="RedBot.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396432925811" ignored="false" />
-    <file path="/Python Console" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034440015" ignored="false" />
+    <file path="/Dummy.txt" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398242683777" ignored="false" />
+    <file path="/Python Console" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397035292287" ignored="false" />
     <file path="/client.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396436889891" ignored="false" />
-    <file path="/request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396441544380" ignored="false" />
-    <file path="/RedBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396861894235" ignored="false" />
+    <file path="/request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397035271869" ignored="false" />
+    <file path="/RedBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397041293440" ignored="false" />
     <file path="/login_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396441513632" ignored="false" />
-    <file path="/__init__.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396857880985" ignored="false" />
+    <file path="/__init__.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398245613789" ignored="false" />
     <file path="/get_subreddit_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396855236385" ignored="false" />
-    <file path="/main.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034453460" ignored="false" />
-    <file path="/get_post_comments_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396862088651" ignored="false" />
-    <file path="/post_greet_msg.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397034494787" ignored="false" />
+    <file path="/main.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246199288" ignored="false" />
+    <file path="/get_post_comments_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397045655984" ignored="false" />
+    <file path="/post_greet_msg.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398245595357" ignored="false" />
+    <file path="/PostBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246407666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +38,16 @@
       <file leaf-file-name="RedBot.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RedBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state line="5" column="102" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="PostBot.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PostBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="1.0074074">
+            <state line="24" column="28" selection-start="822" selection-end="822" vertical-scroll-proportion="0.21779141">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -56,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_greet_msg.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_types/post_greet_msg.py">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +67,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+            <state line="4" column="36" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,7 +76,7 @@
       <file leaf-file-name="request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="8" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +85,8 @@
       <file leaf-file-name="login_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="61" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,10 +94,8 @@
       <file leaf-file-name="get_subreddit_posts_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="53" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state line="4" column="54" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,10 +103,8 @@
       <file leaf-file-name="get_post_comments_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="45" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state line="20" column="27" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,14 +131,16 @@
         <option value="$PROJECT_DIR$/request.py" />
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/request_types/get_subreddit_request.py" />
-        <option value="$PROJECT_DIR$/request_types/__init__.py" />
         <option value="$PROJECT_DIR$/request_types/login_request.py" />
-        <option value="$PROJECT_DIR$/RedBot.py" />
-        <option value="$PROJECT_DIR$/request_types/get_subreddit_posts_request.py" />
-        <option value="$PROJECT_DIR$/request_types/get_post_comments_request.py" />
         <option value="$PROJECT_DIR$/request_types/request.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/RedBot.py" />
+        <option value="$PROJECT_DIR$/request_types/get_post_comments_request.py" />
+        <option value="$PROJECT_DIR$/request_types/get_subreddit_posts_request.py" />
+        <option value="$PROJECT_DIR$/subreddits/itgsodertornsubreddit.posts" />
         <option value="$PROJECT_DIR$/request_types/post_greet_msg.py" />
+        <option value="$PROJECT_DIR$/request_types/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/PostBot.py" />
       </list>
     </option>
   </component>
@@ -209,6 +204,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="subreddits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RedBot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="request_types" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -224,6 +233,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GymnasieArbete-53641e45e8a8327233a8343477932cedbc0816db/GymnasieArbete-53641e45e8a8327233a8343477932cedbc0816db" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -274,6 +284,25 @@
       <module name="RedBot" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RedBot.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PostBot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="RedBot" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Morgan.cromell\Desktop\GitHub\RedBot\PostBot.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -357,16 +386,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.login_request" />
       <item index="1" class="java.lang.String" itemvalue="Python.RedBot" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PostBot" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RedBot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.login_request" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PostBot" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RedBot" />
+        <item index="3" class="java.lang.String" itemvalue="Python.login_request" />
       </list>
     </recent_temporary>
   </component>
@@ -400,23 +431,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25378788" sideWeight="0.6354344" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49063033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36456558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -480,66 +511,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RedBot.py">
+    <entry file="file://$PROJECT_DIR$/request_types/post_comment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="53" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+        <state line="14" column="37" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="4" column="39" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/post_greet_msg.py">
+    <entry file="file://$PROJECT_DIR$/request_types/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="75" selection-start="187" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RedBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="102" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/subreddits/itgsodertornsubreddit.posts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.10429448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/post_comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="64" selection-end="64" vertical-scroll-proportion="0.15644172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="54" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="1.0074074">
+        <state line="4" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="822" selection-end="822" vertical-scroll-proportion="0.21779141">
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

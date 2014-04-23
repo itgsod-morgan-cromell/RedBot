@@ -2,7 +2,7 @@ from request import Request
 import json
 
 class GetSubredditPostsRequest(Request):
-    def __init__(self, subreddit, sorting='', limit=1, **kwargs):
+    def __init__(self, subreddit, sorting='', limit=25, **kwargs):
         Request.__init__(self, 'GET', 'http://www.reddit.com/r/{0}/{1}.json'.format(subreddit, sorting), limit=limit)
         self.json = None
         self.posts = []
