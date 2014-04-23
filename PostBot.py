@@ -50,7 +50,7 @@ class PostBot(object):
         """
         Posts a comment request with the given message on the given post.
         """
-        self.redbot.send_request(PostComment(post['data']['name'], message))
+        self.redbot.send_request(PostCommentRequest(post['data']['name'], message))
         print "The bot has commented to the thread: ", post['data']['title']
 
     def add_post_as_posted(self, post):
@@ -68,12 +68,12 @@ class PostBot(object):
         Returns the posts in the subreddit that has not yet been commented as an array.
         Checks the post_id with the ".post" file.
         If it does not exist in the ".posts" file it will add it to the unresponed_posts list.
-        The post_id is in is located inside post['data']['name']
         """
         self.posts = self.get_posts(subreddit)
         unresponded_posts = []
         responed_posts = [line.strip() for line in open('subreddits/{0}.posts'.format(subreddit))]
         for post in self.posts:
+            # The post_id is in is located inside post['data']['name']
             if post['data']['name'] not in responed_posts:
                 unresponded_posts.append(post)
 

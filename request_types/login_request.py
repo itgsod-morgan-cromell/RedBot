@@ -3,6 +3,10 @@ import json
 
 
 class LoginRequest(Request):
+    """
+    This request logs the client into reddit. It takes a username and a password.
+    It also sets the clients modhash.
+    """
     def __init__(self, username, password):
         Request.__init__(self, 'POST', 'http://www.reddit.com/api/login', api_type='json', user=username, passwd=password)
 
@@ -16,5 +20,4 @@ class LoginRequest(Request):
                 print 'modhash is {0}'.format(client.modhash)
         else:
             print 'Failed to log in'
-            print j['json']
 

@@ -3,7 +3,10 @@ import json
 import time
 
 
-class PostComment(Request):
+class PostCommentRequest(Request):
+    """
+    This request posts a given "message" to the post defined by the "id"
+    """
     def __init__(self, id, message):
         Request.__init__(self, 'POST', 'http://www.reddit.com/api/comment', api_type='json',
                          text=message, thing_id=id)

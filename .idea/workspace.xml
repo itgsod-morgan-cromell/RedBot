@@ -7,15 +7,17 @@
     <file path="/Dummy.txt" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398242683777" ignored="false" />
     <file path="/Python Console" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397035292287" ignored="false" />
     <file path="/client.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396436889891" ignored="false" />
-    <file path="/request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397035271869" ignored="false" />
+    <file path="/request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246731333" ignored="false" />
     <file path="/RedBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397041293440" ignored="false" />
-    <file path="/login_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396441513632" ignored="false" />
-    <file path="/__init__.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398245613789" ignored="false" />
+    <file path="/login_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398247324985" ignored="false" />
+    <file path="/__init__.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246768492" ignored="false" />
     <file path="/get_subreddit_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1396855236385" ignored="false" />
     <file path="/main.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246199288" ignored="false" />
-    <file path="/get_post_comments_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1397045655984" ignored="false" />
+    <file path="/get_post_comments_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398247237308" ignored="false" />
     <file path="/post_greet_msg.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398245595357" ignored="false" />
-    <file path="/PostBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246407666" ignored="false" />
+    <file path="/PostBot.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398247049212" ignored="false" />
+    <file path="/post_comment_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398247425389" ignored="false" />
+    <file path="/get_subreddit_posts_request.py" changelist="2e7348b5-7528-45f7-adb0-5e5d797d5a85" time="1398246879825" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +46,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostBot.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PostBot.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PostBot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="822" selection-end="822" vertical-scroll-proportion="0.21779141">
+            <state line="75" column="70" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_comment_request.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/request_types/post_comment_request.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="72" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11349693">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +78,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+            <state line="4" column="51" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,7 +87,7 @@
       <file leaf-file-name="request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+            <state line="4" column="71" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +96,7 @@
       <file leaf-file-name="login_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="21" column="36" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +105,7 @@
       <file leaf-file-name="get_subreddit_posts_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="54" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="18" column="12" selection-start="605" selection-end="665" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +114,7 @@
       <file leaf-file-name="get_post_comments_request.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="19" column="43" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,16 +142,17 @@
         <option value="$PROJECT_DIR$/request.py" />
         <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/request_types/get_subreddit_request.py" />
-        <option value="$PROJECT_DIR$/request_types/login_request.py" />
-        <option value="$PROJECT_DIR$/request_types/request.py" />
         <option value="$PROJECT_DIR$/RedBot.py" />
-        <option value="$PROJECT_DIR$/request_types/get_post_comments_request.py" />
-        <option value="$PROJECT_DIR$/request_types/get_subreddit_posts_request.py" />
         <option value="$PROJECT_DIR$/subreddits/itgsodertornsubreddit.posts" />
         <option value="$PROJECT_DIR$/request_types/post_greet_msg.py" />
-        <option value="$PROJECT_DIR$/request_types/__init__.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/request_types/request.py" />
+        <option value="$PROJECT_DIR$/request_types/__init__.py" />
+        <option value="$PROJECT_DIR$/request_types/get_subreddit_posts_request.py" />
         <option value="$PROJECT_DIR$/PostBot.py" />
+        <option value="$PROJECT_DIR$/request_types/get_post_comments_request.py" />
+        <option value="$PROJECT_DIR$/request_types/login_request.py" />
+        <option value="$PROJECT_DIR$/request_types/post_comment_request.py" />
       </list>
     </option>
   </component>
@@ -511,7 +523,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/request_types/post_comment.py">
+    <entry file="file://$PROJECT_DIR$/request_types/post_comment_request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="37" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
           <folding />
@@ -553,9 +565,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
+    <entry file="file://$PROJECT_DIR$/subreddits/itgsodertornsubreddit.posts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.10429448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="71" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -567,45 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
+    <entry file="file://$PROJECT_DIR$/PostBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/subreddits/itgsodertornsubreddit.posts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.10429448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/post_comment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="64" selection-end="64" vertical-scroll-proportion="0.15644172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="54" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="75" column="70" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -616,12 +602,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PostBot.py">
+    <entry file="file://$PROJECT_DIR$/request_types/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="822" selection-end="822" vertical-scroll-proportion="0.21779141">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state line="4" column="51" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_post_comments_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="43" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/get_subreddit_posts_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="12" selection-start="605" selection-end="665" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/login_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request_types/post_comment_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="72" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11349693">
+          <folding />
         </state>
       </provider>
     </entry>
