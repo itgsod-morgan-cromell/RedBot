@@ -20,4 +20,3 @@ Det är väldigt simpelt att lägga till ytterligare requestsorter då dessa ärver f
 Programmet är för närvarande inställt att om en request misslyckats eller man har överstigit max requests så väntar den på att man kan göra det igen. Detta kan dock ändras ganska lätt till ett annat system men vi tyckte att detta var mest lämpligt för vår bots syfte.
 ##Förbättringar
 Det vi skulle kunna lägga till och ändra i programmet är att ha ett bättre system för att lägga till requests som ska köras. Detta kan antingen lösas med att skicka dem till en kö eller använda sig av events. Det man också skulle kunna göra är att använda sig av multithreading för att kunna köra flera requests samtidigt. Vi skulle också kunna göra vårt program mera användarvänligt så att andra personer bara med några rader kan skriva sin egen bot med standardfunktioner utan att behöva filtrera ut svaret ur jsonlistor.
-
