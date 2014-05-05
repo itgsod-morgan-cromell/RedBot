@@ -36,16 +36,6 @@ class PostBot(object):
         if r:
             return r.comments
 
-    def start(self):
-        while True:
-            posts = self.get_unresponded_posts(self.subreddit)
-            if posts:
-                for post in posts:
-                    self.comment_on_post(self.message, post)
-                    self.add_post_as_posted(post)
-            # Sleep before we get new posts again to prevent unnecessary requests.
-            time.sleep(30)
-
     def comment_on_post(self, message, post):
         """
         Posts a comment request with the given message on the given post.
@@ -60,8 +50,6 @@ class PostBot(object):
         post_id = post['data']['name']
         with open('subreddits\{0}.posts'.format(self.subreddit), 'a') as subredditfile:
             subredditfile.write('{0}\n'.format(post_id))
-
-
 
     def get_unresponded_posts(self, subreddit):
         """
